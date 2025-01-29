@@ -30,11 +30,7 @@ public class TestBase {
                    log.info("Chrome Browser Launched Success.");
                     break;
                 
-                case "Edge":
-                    WebDriverManager.edgedriver().setup();
-                    driver = new EdgeDriver();
-                    log.info("Edge Browser Launched Successfully.");
-                    break;
+                
                 default:
                     System.out.println("Invalid Browser");
 
