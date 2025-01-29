@@ -17,10 +17,7 @@ public class TestBase {
 
     public static WebDriver driver;
     public static Logger log=null;
-//another some changes
-    // code for create pull request
-    
-    //some changes done in development1 branch
+
 
     @Parameters({"Br", "URL"})
 
