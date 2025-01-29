@@ -18,7 +18,6 @@ public class TestBase {
     public static WebDriver driver;
     public static Logger log=null;
 
-
     @BeforeTest
     public void setUp(String br, String url) {
 
