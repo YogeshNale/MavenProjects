@@ -19,8 +19,6 @@ public class TestBase {
     public static Logger log=null;
 
 
-   
-
     @BeforeTest
     public void setUp(String br, String url) {
 
