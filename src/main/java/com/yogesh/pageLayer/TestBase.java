@@ -19,7 +19,7 @@ public class TestBase {
     public static Logger log=null;
 
 
-    @Parameters({"Br", "URL"})
+   
 
     @BeforeTest
     public void setUp(String br, String url) {
