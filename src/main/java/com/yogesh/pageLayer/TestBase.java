@@ -30,11 +30,7 @@ public class TestBase {
                     driver = new ChromeDriver();
                    log.info("Chrome Browser Launched Success.");
                     break;
-                case "Firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                    log.info("FireFox; Browser Launched Successfully.");
-                    break;
+                
                 case "Edge":
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver();
