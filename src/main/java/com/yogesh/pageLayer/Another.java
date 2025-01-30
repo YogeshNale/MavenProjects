@@ -7,7 +7,7 @@ public class Another {
 		
 		
 		//this is git paractices 
-
+int i=10;
 	}
 
 }
